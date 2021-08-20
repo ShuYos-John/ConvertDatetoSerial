@@ -7,7 +7,10 @@ After calling function, variation Serialvalue stores the serial value.
 
 SerialtoDate 
 is a function which convert serial value into Date in type of String.
-Please change 
+Please change variation DateSerialvalue.
+After calling function, each variation year, month and day store the Date.
+In this funtion, under the decimal point of Serialvalue is ignored.
+If you need to express hour, please add variation 
 
 This is made with attention of leap year especially the fact that the year been divisible by 100 is NOT leap year and been divisible by 400 IS leap year.
 It is perfect at consideration of leap year.
